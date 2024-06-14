@@ -1,0 +1,36 @@
+/* Styles for the navigation bar */
+nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Removes default list styling */
+nav ul {
+    text-align: center;
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+    display: flex; /* Flexbox for horizontal layout */
+    align-items: center; /* Centers items vertically */
+    justify-content: center;
+}
+
+/* Styles for each navigation item */
+nav ul li {
+    margin-right: 20px; /* Space between items */
+}
+
+/* Removes default styling of links and adds custom styles */
+nav a {
+    text-decoration: none; /* Removes underline */
+    color: #333; /* Dark grey text color */
+    font-weight: bold; /* Makes the font bold */
+}
+
+/* Hover effect for links */
+nav a:hover {
+    color: #0056b3; /* Changes text color on hover */
+}
