@@ -15,6 +15,9 @@ function Navbar() {
         <li>
           <Link to="/articales">Articales</Link>
         </li>
+        <li>
+          <Link to="/cities">Cities</Link>
+        </li>
        
       </ul>
     </nav>

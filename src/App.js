@@ -11,6 +11,7 @@ import CreateConcert from './CreateConcert';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Articales from './Articales';
+import Cities from './Cities';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<CreateGroup />} />
             <Route path="/concert" element={<CreateConcert />} />
             <Route path="/articales" element={<Articales />} />
+            <Route path="/cities" element={<Cities />} />
 
           </Routes>
           <Footer/>
